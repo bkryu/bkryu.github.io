@@ -1,0 +1,148 @@
+/* Overall Body */
+body {
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-family: -apple-system-body,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    margin: 0;
+    background-color: #FFFFFF;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;    
+    color: #B1040E;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* For Header */
+#header {
+    text-align: center;
+}
+h1 a {
+    color: #B1040E;
+    font-style: italic;
+    font-weight: heavy;
+    
+}
+
+#my-email {
+    font-size: 0.9em;
+}
+
+/* For Body */
+#body {
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+div {
+    border: none;
+    border-color: red;
+}
+
+/* For Sidebar */
+#sidebar {
+    display: inline-block;
+    /* display: flex; */
+    max-width: 200px;
+    padding: 16px;
+    padding-top: 40px;
+    margin: auto;
+    text-align: left;
+    /* text-align: center; */
+    vertical-align: top
+}
+
+#sidebar img {
+    display: block;
+    border-radius: 50%;
+    max-width: 140px;
+    max-height: 140px;
+    margin-left: 30px;
+    border: solid;
+    border-color: #BFB2A1;
+}
+
+#sidebar h4 {
+    margin-bottom: 0.2em;
+}
+
+#sidebar-description {
+    font-size: 0.9em;
+}
+
+.sidebar-icon {
+    margin: 4px 0;
+}
+
+#sidebar-img {
+    display: block;
+}
+
+#sidebar-stuff {
+    display: block;
+}
+
+/* For Main Contents */
+#contents {
+    display: inline-block;
+    max-width: 800px;
+    padding: 16px;
+    text-align: justify;
+}
+
+ul {
+    line-height: 1.6;
+}
+hr {
+    border-color: #EFD0B5;
+}
+h2 {
+    margin-bottom: 10px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+.content-content {
+    font-size: 1em;
+}
+.education-years {
+    color: #444444;
+    font-size: 0.9em;
+}
+
+/* For Footer */
+#footer {
+    border-top: solid;
+    border-top-width: 1px;
+    border-top-color: #A97A57;
+    background-color: #FFEBD0;
+
+    padding: 16px;
+}
+#footer-text {
+    text-align: center;
+    font-size: 0.8em;
+    color: #56483B;
+}
+
+/* Birch Colors */
+/* #EFD0B5 */
+/* #F6DEC0 */
+/* #FFEBD0 */
+
+/* Woody Colors */
+/* #A97A57	 */
+/* #9A5938	 */
+/* #BFB2A1	 */
+/* #A7967B	 */
+/* #56483B	 */
+
+/* Stanford */
+/* Digital Red: B1040E */
+/* #8C1515 */
+/* #B83A4B */
+/* #820000 */
