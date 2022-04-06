@@ -1,7 +1,8 @@
 /* Overall Body */
 body {
     /* font-family: Helvetica, Arial, sans-serif; */
-    font-family: -apple-system-body,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    font-family: 'Inter', -apple-system-body,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+    font-weight: 400;
     margin: 0;
     background-color: #FFFFFF;
     font-size: 1em;
@@ -22,8 +23,9 @@ a:hover{
 }
 h1 a {
     color: #B1040E;
-    font-style: italic;
-    font-weight: heavy;
+    /*font-style: italic;*/
+    /*font-size: 0.9em;*/
+    font-weight: 700;
     
 }
 
@@ -91,7 +93,7 @@ div {
     display: inline-block;
     max-width: 800px;
     padding: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 ul {
