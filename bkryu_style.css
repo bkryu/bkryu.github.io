@@ -29,6 +29,11 @@ h1 a {
     
 }
 
+li a {
+    font-size: 0.9em;
+    /*font-weight: 700;*/
+}
+
 #my-email {
     font-size: 0.9em;
 }
@@ -96,17 +101,29 @@ div {
     text-align: left;
 }
 
+.content-item {
+    margin-bottom: 36px;
+}
+
 ul {
+    margin-top:  5px;
     line-height: 1.6;
 }
 hr {
-    border-color: #EFD0B5;
+    border-color: #FFEBD0;
 }
 h2 {
     margin-bottom: 10px;
 }
 h3 {
     margin-bottom: 10px;
+}
+
+
+
+.content-content h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 .content-content {
     font-size: 1em;
