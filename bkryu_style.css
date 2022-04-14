@@ -108,6 +108,7 @@ div {
 ul {
     margin-top:  5px;
     line-height: 1.6;
+    padding-left: 20px;
 }
 hr {
     border-color: #FFEBD0;
@@ -135,7 +136,7 @@ h3 {
 
 /* For Footer */
 #footer {
-    border-top: solid;
+    /*border-top: solid;*/
     border-top-width: 1px;
     border-top-color: #A97A57;
     background-color: #FFEBD0;
